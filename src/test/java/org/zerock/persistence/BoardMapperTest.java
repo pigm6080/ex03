@@ -65,8 +65,7 @@ public class BoardMapperTest {
 		board.setTitle("수정된제목");
 		board.setContent("수정된 내용");
 		board.setWriter("user00");
-				int count = mapper.update(board);
-				log.info("UPDATE COUNT: " + count);
+			
 		}
 	}
 
